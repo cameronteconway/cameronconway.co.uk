@@ -1,2 +1,2 @@
 # cameronconway.co.uk
-Personal Website
+Code files for my personal website 'cameronconway.co.uk', also included is the gulpfile.

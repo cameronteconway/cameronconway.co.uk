@@ -1,0 +1,26 @@
+{
+  "name": "cameronconway.co.uk",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cameronteconway/cameronconway.co.uk.git"
+  },
+  "author": "Cameron Conway",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cameronteconway/cameronconway.co.uk/issues"
+  },
+  "homepage": "https://github.com/cameronteconway/cameronconway.co.uk#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.14",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.0",
+    "gulp-terser": "^2.0.1"
+  }
+}

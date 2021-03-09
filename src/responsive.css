@@ -1,0 +1,50 @@
+/* Extra extra small dvices (phones, 568px and down) */
+@media only screen and (max-width: 320px) {
+    /* body {
+        border: 3px solid cyan !important;
+    } */
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* body {
+        border: 3px solid red;
+    } */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* body {
+        border: 3px solid yellow;
+    } */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /* body { */
+        /* border: 3px solid green; */
+    /* } */
+    .about-me {
+        max-width: 400px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .skills {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /* body {
+        border: 3px solid blue;
+    } */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* body {
+        border: 3px solid pink;
+    } */
+}

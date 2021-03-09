@@ -1,0 +1,63 @@
+:root {
+    --dark-text: #262737;
+}
+
+body {
+    color: var(--dark-text);
+    font-family: 'Rubik', sans-serif;
+}
+
+/* LINKS */
+.links {
+    position: fixed;
+    left: 13px;
+    top: 5px;
+}
+.links i {
+    font-size: 25px;
+    color: black;
+    position: relative;
+}
+.links .bi-linkedin {
+    top: 7px;
+}
+
+/* ABOUT ME */
+.about-me {
+    padding: 150px 50px 0px 50px;
+}
+.about-me .name {
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+}
+.about-me .detail {
+    line-height: 30px;
+    font-weight: 300;
+}
+
+
+.skills {
+    padding: 0 50px 20px 50px;
+    margin-top: 30px;
+}
+.skills span {
+    color: black;
+    font-weight: 500;
+}
+.skills p {
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
