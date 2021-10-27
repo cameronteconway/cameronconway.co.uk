@@ -1,0 +1,50 @@
+.projectsContainer {
+    padding-top: 100px;
+    line-height: 30px;
+}
+.projectsContainer a:hover .projectName,
+.projectsContainer a:focus .projectName {
+    color: #e84a45;
+    transition: unset;
+}
+.projectsContainer a:hover,
+.projectsContainer a:focus {
+    outline: none;
+}
+.pageTitle {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: block;
+    color: #e84a45;
+}
+.projectContainer {
+    font-weight: 300;
+    margin: 20px 0;
+}
+.projectLink {
+    text-decoration: unset;
+    display: block;
+}
+.projectName {
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    position: relative;
+}
+
+/* Medium devices (landscape tablets, 500px and up) */
+@media only screen and (min-width: 500px) {
+    .projectsContainer {
+        max-width: 400px;
+        margin: 0 auto;
+        padding-top: 160px;
+        text-align: left;
+    }
+    .pageTitle {
+        font-size: 28px;
+    }
+    .projectName {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,22 @@
+.notFound {
+    padding-top: 100px;
+}
+.title {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    display: block;
+    color: #e84a45;
+}
+/* Medium devices (landscape tablets, 500px and up) */
+@media only screen and (min-width: 500px) {
+    .notFound {
+        max-width: 400px;
+        margin: 0 auto;
+        padding-top: 160px;
+    }
+    .title {
+        font-size: 28px;
+    }
+}

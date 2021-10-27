@@ -1,0 +1,66 @@
+* {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+p,
+a {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+/* Medium devices (landscape tablets, 500px and up) */
+@media only screen and (min-width: 500px) {
+    p,
+    a {
+        font-size: 18px;
+    }
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: rgb(18, 18, 18);
+    transition: 0.4s;
+}
+.dark-mode p,
+.dark-mode span,
+.dark-mode a {
+    color: white;
+    transition: 0.4s;
+}
+.dark-mode .icon-navigation .bi {
+    color: white;
+    transition: 0.4s;
+}
+
+/* Light Mode */
+.light-mode {
+    background-color: white;
+    transition: 0.4s;
+}
+.light-mode p,
+.light-mode span,
+.light-mode a {
+    color: rgb(18, 18, 18);
+    transition: 0.4s;
+}
+.light-mode .icon-navigation .bi {
+    color: rgb(18, 18, 18);
+    transition: 0.4s;
+}
+
+.wrapper {
+    max-width: 1250px;
+    margin: auto;
+    padding: 0 4rem;
+    overflow: auto;
+}

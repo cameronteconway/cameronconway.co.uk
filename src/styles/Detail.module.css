@@ -1,0 +1,33 @@
+.detail {
+    padding-top: 100px;
+}
+.title {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    display: block;
+    color: #e84a45;
+}
+.skillTitle {
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 0.5rem;
+}
+
+/* Medium devices (landscape tablets, 500px and up) */
+@media only screen and (min-width: 500px) {
+    .detail {
+        max-width: 400px;
+        margin: 0 auto;
+        padding-top: 160px;
+    }
+    .title {
+        font-size: 28px;
+    }
+    .skillTitle {
+        font-size: 18px;
+    }
+}
