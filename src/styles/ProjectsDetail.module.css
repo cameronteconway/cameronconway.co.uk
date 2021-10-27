@@ -1,5 +1,6 @@
 .projectsContainer {
     padding-top: 100px;
+    padding-bottom: 100px;
     line-height: 30px;
 }
 .projectsContainer a:hover .projectName,
