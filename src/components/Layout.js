@@ -15,6 +15,15 @@ const Layout = ({ children }) => {
         ? (lightModeClass = 'light-mode')
         : (lightModeClass = 'dark-mode');
 
+    const body = document.querySelector('body');
+    if (lightModeClass === 'dark-mode') {
+        body.style.backgroundColor = 'rgb(18, 18, 18)';
+        body.style.transition = '0.4s';
+    } else {
+        body.style.backgroundColor = 'white';
+        body.style.transition = '0.4s';
+    }
+
     return (
         <div className={`app-container ${lightModeClass}`}>
             <div className="wrapper">
