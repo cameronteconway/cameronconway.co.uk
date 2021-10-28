@@ -35,7 +35,7 @@ a {
 
 /* Dark Mode */
 .dark-mode {
-    background-color: rgb(18, 18, 18);
+    /* background-color: rgb(18, 18, 18); */
     transition: 0.4s;
 }
 .dark-mode p,
@@ -51,7 +51,7 @@ a {
 
 /* Light Mode */
 .light-mode {
-    background-color: white;
+    /* background-color: white; */
     transition: 0.4s;
 }
 .light-mode p,

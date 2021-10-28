@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import IconNavigation from './IconNavigation';
 
 import 'bootstrap-icons/font/bootstrap-icons.css';
@@ -15,14 +15,16 @@ const Layout = ({ children }) => {
         ? (lightModeClass = 'light-mode')
         : (lightModeClass = 'dark-mode');
 
-    const body = document.querySelector('body');
-    if (lightModeClass === 'dark-mode') {
-        body.style.backgroundColor = 'rgb(18, 18, 18)';
-        body.style.transition = '0.4s';
-    } else {
-        body.style.backgroundColor = 'white';
-        body.style.transition = '0.4s';
-    }
+    useEffect(() => {
+        const body = document.querySelector('body');
+        if (lightModeClass === 'dark-mode') {
+            body.style.backgroundColor = 'rgb(18, 18, 18)';
+            body.style.transition = '0.4s';
+        } else {
+            body.style.backgroundColor = 'white';
+            body.style.transition = '0.4s';
+        }
+    }, [lightMode]);
 
     return (
         <div className={`app-container ${lightModeClass}`}>
