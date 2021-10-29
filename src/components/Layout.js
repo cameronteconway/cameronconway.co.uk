@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
             body.style.backgroundColor = 'white';
             body.style.transition = '0.4s';
         }
-    }, [lightMode]);
+    }, [lightMode, lightModeClass]);
 
     return (
         <div className={`app-container ${lightModeClass}`}>
