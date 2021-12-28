@@ -1,7 +1,21 @@
 .links {
-    position: fixed;
     top: 10px;
     left: 15px;
+}
+.links:first-of-type {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+@media only screen and (min-width: 500px) {
+    .links:first-of-type {
+        position: fixed;
+        display: unset;
+        justify-content: unset;
+        flex-wrap: unset;
+        margin-top: unset;
+    }
 }
 .links:last-of-type {
     bottom: 0;
@@ -19,8 +33,12 @@
 .linkItem a:focus .bi,
 .linkItem button:hover .bi,
 .linkItem button:focus .bi {
-    color: #e84a45;
+    /* color: #e84a45; */
     transition: unset;
+}
+.linkItem a:hover .bi,
+.linkItem button:hover .bi {
+    /* color: #e84a45; */
 }
 .linkItem a:hover,
 .linkItem a:focus,

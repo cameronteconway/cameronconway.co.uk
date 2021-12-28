@@ -23,11 +23,8 @@ const Index = () => {
                 />
                 <meta property="og:image" content="" />
                 <meta property="og:locale" content="en_US" />
-                <meta
-                    property="og:url"
-                    content="https://www.cameronconway.co.uk"
-                />
-                <link ref="canonical" href="https://www.cameronconway.co.uk" />
+                <meta property="og:url" content="https://cameronconway.co.uk" />
+                <link ref="canonical" href="https://cameronconway.co.uk" />
             </Helmet>
             <Detail />
         </React.Fragment>

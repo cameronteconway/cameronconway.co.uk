@@ -81,7 +81,7 @@ const IconNavigation = ({
     });
 
     return (
-        <div className="icon-navigation">
+        <div className="icon-navigation" style={{ width: '100%' }}>
             <ul className={links}>
                 {renderNavIcons}
                 {renderLightMode()}

@@ -21,7 +21,7 @@ const ProjectsDetail = () => {
                     rel="noreferrer"
                 >
                     <span className={projectName}>{project.name}</span>
-                    {project.desc}
+                    {/* {project.desc} */}
                 </a>
             </div>
         );
