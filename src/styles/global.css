@@ -47,6 +47,7 @@ a {
     /* background-color: white; */
     transition: 0.4s;
 }
+.light-mode h1,
 .light-mode p,
 .light-mode span,
 .light-mode a {

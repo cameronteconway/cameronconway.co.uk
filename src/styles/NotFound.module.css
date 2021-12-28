@@ -2,21 +2,25 @@
     padding-top: 100px;
 }
 .title {
-    font-size: 22px;
+    font-size: 22px !important;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
     display: block;
-    color: #e84a45;
 }
+.errorMessage {
+    font-family: 'Noto Serif';
+    line-height: 30px;
+}
+
 /* Medium devices (landscape tablets, 500px and up) */
 @media only screen and (min-width: 500px) {
     .notFound {
-        max-width: 400px;
-        margin: 0 auto;
-        padding-top: 160px;
-    }
-    .title {
-        font-size: 28px;
+        max-width: 500px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
     }
 }

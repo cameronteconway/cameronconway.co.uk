@@ -40,7 +40,7 @@
 /* Medium devices (landscape tablets, 500px and up) */
 @media only screen and (min-width: 500px) {
     .projectsContainer {
-        max-width: 400px;
+        max-width: 500px;
         text-align: left;
         position: absolute;
         top: 45%;
