@@ -3,6 +3,7 @@
     left: 15px;
 }
 .links:first-of-type {
+    position: sticky;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -35,10 +36,6 @@
 .linkItem button:focus .bi {
     /* color: #e84a45; */
     transition: unset;
-}
-.linkItem a:hover .bi,
-.linkItem button:hover .bi {
-    /* color: #e84a45; */
 }
 .linkItem a:hover,
 .linkItem a:focus,
