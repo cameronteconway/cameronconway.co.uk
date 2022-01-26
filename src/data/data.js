@@ -45,15 +45,15 @@ export const projects = [
         desc: 'Clean, user friendly, and accessible homepage for a university.',
     },
     {
+        name: 'Quiz',
+        href: 'https://cameronconway-quiz.netlify.app/',
+        repo: 'https://github.com/cameronteconway/quiz',
+        desc: 'Quiz web application using React and Redux.',
+    },
+    {
         name: 'Shop',
         href: 'https://cameronconway-shop.netlify.app/',
         repo: 'https://github.com/cameronteconway/shop',
         desc: 'Demonstrates some of the trends and designs seen on high fasion websites.',
-    },
-    {
-        name: 'Blog',
-        href: 'https://cameronconway-blog.netlify.app/',
-        repo: 'https://github.com/cameronteconway/blog',
-        desc: 'Selection of condensed blog posts into relevant and manageable information.',
     },
 ];

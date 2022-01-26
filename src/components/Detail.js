@@ -21,7 +21,7 @@ const Detail = () => {
             <p>HTML5, CSS3, JavaScript, PHP, SQL, JQuery</p>
             <span className={skillTitle}>Technologies &amp; Frameworks</span>
             <p>
-                React, Laravel, Node.js, Express, Gatsby, Bootstrap, Tailwind,
+                React, Redux, Laravel, Node.js, Express, Gatsby, Bootstrap, Tailwind,
                 Git, Jira
             </p> */}
         </div>
