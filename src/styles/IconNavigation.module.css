@@ -1,61 +1,10 @@
-.mainLinks {
-    border: 1px solid red;
-    display: block;
-}
 .links {
     top: 10px;
     left: 15px;
-}
-.links:first-of-type {
-    position: -webkit-sticky;
-    position: sticky;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 15px;
-}
-@media only screen and (min-width: 600px) {
-    .links:first-of-type {
-        position: fixed;
-        display: unset;
-        justify-content: unset;
-        flex-wrap: unset;
-        margin-top: unset;
-    }
-}
-.links:last-of-type {
-    bottom: 0;
-    top: unset;
     position: fixed;
 }
-.linkItem {
-    margin-bottom: 10px;
-    cursor: pointer;
-}
-.linkItem button {
-    cursor: pointer;
-}
-.linkItem a:hover .bi,
-.linkItem a:focus .bi,
-.linkItem button:hover .bi,
-.linkItem button:focus .bi {
-    /* color: #e84a45; */
-    transition: unset;
-}
-.linkItem a:hover,
-.linkItem a:focus,
-.linkItem button:hover,
-.linkItem button:focus {
-    outline: none;
-}
-.linkItem button {
+.darkMode button {
     border: none;
     background: none;
-}
-.bi {
     font-size: 25px;
-}
-.bi:hover {
-    color: #e84a45;
-    transition: unset;
 }

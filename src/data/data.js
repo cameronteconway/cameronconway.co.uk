@@ -1,28 +1,4 @@
-export const navIcons = [
-    {
-        iconFont: 'house-door',
-        href: '/',
-        id: 'home',
-        internalLink: true,
-        title: 'Go to homepage',
-    },
-    {
-        iconFont: 'collection',
-        href: '/projects',
-        id: 'projects',
-        internalLink: true,
-        title: 'View projects',
-    },
-    {
-        iconFont: 'envelope',
-        href: 'mailto:cameronteconway@outlook.com',
-        id: 'email',
-        internalLink: false,
-        title: 'Send an email to Cameron Conway',
-    },
-];
-
-export const socialIcons = [
+export const icons = [
     {
         iconFont: 'linkedin',
         href: 'https://www.linkedin.com/in/cameron-conway-9b4aa2172',
@@ -34,6 +10,13 @@ export const socialIcons = [
         href: 'https://github.com/cameronteconway',
         id: 'github',
         title: 'View my work on GitHub',
+    },
+    {
+        iconFont: 'envelope',
+        href: 'mailto:cameronteconway@outlook.com',
+        id: 'email',
+        internalLink: false,
+        title: 'Send an email to Cameron Conway',
     },
 ];
 

@@ -2,6 +2,8 @@ import React from 'react';
 import Detail from '../components/Detail';
 import Helmet from 'react-helmet';
 
+import { projects } from '../data/data';
+
 const Index = () => {
     return (
         <React.Fragment>
@@ -26,7 +28,7 @@ const Index = () => {
                 <meta property="og:url" content="https://cameronconway.co.uk" />
                 <link ref="canonical" href="https://cameronconway.co.uk" />
             </Helmet>
-            <Detail />
+            <Detail projects={projects} />
         </React.Fragment>
     );
 };

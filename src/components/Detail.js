@@ -1,29 +1,37 @@
 import React from 'react';
 
-import { detail, title } from '../styles/Detail.module.css';
+import {
+    detail,
+    folderContainer,
+    folderIcon,
+    folder,
+} from '../styles/Detail.module.css';
 
-const Detail = () => {
+const Detail = ({ projects }) => {
+    const renderProjects = projects.map((project, index) => {
+        return (
+            <a
+                href={project.href}
+                title={project.desc}
+                key={index}
+                className={folderIcon}
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <div className={folder}>
+                    <span></span>
+                    <p>{project.name}</p>
+                </div>
+            </a>
+        );
+    });
+
     return (
         <div className={detail}>
-            <h1 className={title}>Cameron Conway</h1>
-            <br />
-            <span>
-                Web Developer from Lincoln working at the University of
-                Nottingham.
-            </span>
+            <span>Cameron Conway is a Software Engineer in Cheltenham.</span>
             <br /> <br />
-            <span>
-                I am passionate about creating clean and simple designs and
-                developing user friendly and accessible websites.
-            </span>
-            <br /> <br />
-            {/* <span className={skillTitle}>Languages &amp; Libraries</span>
-            <p>HTML5, CSS3, JavaScript, PHP, SQL, JQuery</p>
-            <span className={skillTitle}>Technologies &amp; Frameworks</span>
-            <p>
-                React, Redux, Laravel, Node.js, Express, Gatsby, Bootstrap, Tailwind,
-                Git, Jira
-            </p> */}
+            {/* https://www.youtube.com/watch?v=xZgBOjEAs7E&ab_channel=NoorHUB */}
+            <div className={folderContainer}>{renderProjects}</div>
         </div>
     );
 };

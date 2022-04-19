@@ -14,7 +14,7 @@
 .wrapper {
     max-width: 1250px;
     margin: auto;
-    padding: 0 2rem;
+    padding: 0 2.5rem 0 2.5rem;
     overflow: auto;
 }
 
@@ -27,10 +27,8 @@ a {
 
 /* Dark Mode */
 .dark-mode {
-    /* background-color: rgb(18, 18, 18); */
     transition: 0.4s;
 }
-.dark-mode h1,
 .dark-mode p,
 .dark-mode span,
 .dark-mode a {

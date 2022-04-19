@@ -5,8 +5,6 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 import '../styles/global.css';
 
-import { navIcons, socialIcons } from '../data/data';
-
 const Layout = ({ children }) => {
     const [lightMode, setLightMode] = useState('off');
 
@@ -30,8 +28,6 @@ const Layout = ({ children }) => {
         <div className={`app-container ${lightModeClass}`}>
             <div className="wrapper">
                 <IconNavigation
-                    navIcons={navIcons}
-                    socialIcons={socialIcons}
                     lightMode={lightMode}
                     onLightModeChange={setLightMode}
                 />
