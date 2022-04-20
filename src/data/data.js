@@ -1,22 +1,24 @@
-export const icons = [
+export const socialIcons = [
     {
         iconFont: 'linkedin',
+        text: 'linkedin.com/in/cameronteconway',
         href: 'https://www.linkedin.com/in/cameron-conway-9b4aa2172',
         id: 'linkedin',
         title: 'Find me on LinkedIn',
     },
     {
+        iconFont: 'envelope',
+        text: 'cameronteconway@outlook.com',
+        href: 'mailto:cameronteconway@outlook.com',
+        id: 'email',
+        title: 'Send an email to Cameron Conway',
+    },
+    {
         iconFont: 'github',
+        text: 'github.com/cameronteconway',
         href: 'https://github.com/cameronteconway',
         id: 'github',
         title: 'View my work on GitHub',
-    },
-    {
-        iconFont: 'envelope',
-        href: 'mailto:cameronteconway@outlook.com',
-        id: 'email',
-        internalLink: false,
-        title: 'Send an email to Cameron Conway',
     },
 ];
 

@@ -37,12 +37,11 @@ a {
 }
 .dark-mode .icon-navigation .bi {
     color: white;
-    transition: 0.4s;
+    transition: 0s;
 }
 
 /* Light Mode */
 .light-mode {
-    /* background-color: white; */
     transition: 0.4s;
 }
 .light-mode h1,
@@ -54,5 +53,5 @@ a {
 }
 .light-mode .icon-navigation .bi {
     color: rgb(18, 18, 18);
-    transition: 0.4s;
+    transition: 0s;
 }

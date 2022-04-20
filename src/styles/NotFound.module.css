@@ -1,5 +1,5 @@
 .notFound {
-    padding-top: 100px;
+    padding-top: 120px;
 }
 .title {
     font-size: 22px !important;
@@ -11,6 +11,9 @@
 .errorMessage {
     font-family: 'Noto Serif';
     line-height: 30px;
+}
+.errorMessage a {
+    font-family: 'Noto Serif';
 }
 
 /* Medium devices (landscape tablets, 500px and up) */

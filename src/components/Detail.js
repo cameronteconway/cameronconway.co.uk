@@ -2,6 +2,7 @@ import React from 'react';
 
 import {
     detail,
+    about,
     folderContainer,
     folderIcon,
     folder,
@@ -28,8 +29,11 @@ const Detail = ({ projects }) => {
 
     return (
         <div className={detail}>
-            <span>Cameron Conway is a Software Engineer in Cheltenham.</span>
+            <span className={about}>
+                Cameron Conway is a Software Engineer in Cheltenham.
+            </span>
             <br /> <br />
+            <br />
             {/* https://www.youtube.com/watch?v=xZgBOjEAs7E&ab_channel=NoorHUB */}
             <div className={folderContainer}>{renderProjects}</div>
         </div>

@@ -5,11 +5,13 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 import '../styles/global.css';
 
+import { socialIcons } from '../data/data';
+
 const Layout = ({ children }) => {
-    const [lightMode, setLightMode] = useState('off');
+    const [lightMode, setLightMode] = useState('moon');
 
     let lightModeClass;
-    lightMode === 'off'
+    lightMode === 'moon'
         ? (lightModeClass = 'light-mode')
         : (lightModeClass = 'dark-mode');
 
@@ -30,6 +32,7 @@ const Layout = ({ children }) => {
                 <IconNavigation
                     lightMode={lightMode}
                     onLightModeChange={setLightMode}
+                    socialIcons={socialIcons}
                 />
                 <main className="content">{children}</main>
             </div>

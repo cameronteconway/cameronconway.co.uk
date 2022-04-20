@@ -1,27 +1,49 @@
 import React from 'react';
 
-import { links, darkMode } from '../styles/IconNavigation.module.css';
+import {
+    links,
+    linkItem,
+    darkMode,
+    socialContainer,
+} from '../styles/IconNavigation.module.css';
 
-const IconNavigation = ({ lightMode, onLightModeChange }) => {
+const IconNavigation = ({ lightMode, onLightModeChange, socialIcons }) => {
     const updateLightMode = () => {
-        lightMode === 'off'
-            ? onLightModeChange('on')
-            : onLightModeChange('off');
+        lightMode === 'moon'
+            ? onLightModeChange('lightbulb')
+            : onLightModeChange('moon');
     };
 
     const renderLightMode = () => {
         return (
-            <div id="lightMode" className={darkMode}>
+            <div className={darkMode}>
                 <button onClick={updateLightMode}>
-                    <i className={` bi bi-toggle-${lightMode}`}></i>
+                    <i className={` bi bi-${lightMode}`}></i>
                 </button>
             </div>
         );
     };
 
+    const renderSocialIcons = socialIcons.map((item, index) => {
+        const title = item.title;
+        return (
+            <div id={item.id} className={linkItem} key={index}>
+                <a
+                    href={item.href}
+                    title={title}
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <i className={`bi bi-${item.iconFont}`}></i>
+                </a>
+            </div>
+        );
+    });
+
     return (
         <div className="icon-navigation" style={{ width: '100%' }}>
             <div className={links}>{renderLightMode()}</div>
+            <div className={socialContainer}>{renderSocialIcons}</div>
         </div>
     );
 };

@@ -1,10 +1,28 @@
 .links {
-    top: 10px;
+    top: 15px;
     left: 15px;
     position: fixed;
 }
+
+.socialContainer {
+    top: 15px;
+    right: 15px;
+    position: absolute;
+    display: flex;
+    position: fixed;
+    column-gap: 20px;
+}
+.linkItem {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.linkItem a {
+    font-size: 25px;
+}
+
 .darkMode button {
-    border: none;
     background: none;
     font-size: 25px;
+    border: none;
+    cursor: pointer;
 }
