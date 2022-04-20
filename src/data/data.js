@@ -36,9 +36,9 @@ export const projects = [
         desc: 'Quiz web application using React and Redux.',
     },
     {
-        name: 'Shop',
-        href: 'https://cameronconway-shop.netlify.app/',
-        repo: 'https://github.com/cameronteconway/shop',
+        name: 'Store',
+        href: 'https://cameronconway-store.netlify.app/',
+        repo: 'https://github.com/cameronteconway/store',
         desc: 'Demonstrates some of the trends and designs seen on high fasion websites.',
     },
 ];
