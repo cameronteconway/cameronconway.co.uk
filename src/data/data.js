@@ -2,7 +2,7 @@ export const socialIcons = [
     {
         iconFont: 'linkedin',
         text: 'linkedin.com/in/cameronteconway',
-        href: 'https://www.linkedin.com/in/cameron-conway-9b4aa2172',
+        href: 'https://www.linkedin.com/in/cameronteconway',
         id: 'linkedin',
         title: 'Find me on LinkedIn',
     },
