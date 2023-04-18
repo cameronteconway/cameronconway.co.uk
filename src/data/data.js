@@ -39,6 +39,12 @@ export const projects = [
         name: 'Store',
         href: 'https://cameronconway-store.netlify.app/',
         repo: 'https://github.com/cameronteconway/store',
+        desc: 'Demonstrates some of the trends and designs seen on streetware websites.',
+    },
+    {
+        name: 'Fashion',
+        href: 'https://cameronconway-fashion.netlify.app/',
+        repo: 'https://github.com/cameronteconway/fashion',
         desc: 'Demonstrates some of the trends and designs seen on high fasion websites.',
     },
 ];

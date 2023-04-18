@@ -30,7 +30,7 @@ const Detail = ({ projects }) => {
     return (
         <div className={detail}>
             <span className={about}>
-                Cameron Conway is a Software Engineer in Cheltenham.
+                Cameron Conway is a Software Engineer from the UK.
             </span>
             <br /> <br />
             <br />

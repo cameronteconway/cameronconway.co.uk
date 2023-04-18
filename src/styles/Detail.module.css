@@ -2,22 +2,21 @@
     padding-top: 120px;
 }
 .about {
-    /* font-family: 'Barlow', sans-serif; */
-    /* font-family: 'Rubik', sans-serif; */
     font-family: 'Noto Serif';
     line-height: 30px;
 }
 
 .folderContainer {
-    display: flex;
-    column-gap: 15px;
-    justify-content: space-between;
-    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 25px;
+    justify-content: space-around;
 }
 .folderIcon {
     position: relative;
     height: 80px;
     width: fit-content;
+    margin: 0 auto;
 }
 .folderIcon p {
     position: absolute;
@@ -90,7 +89,8 @@
         padding: 0 1.5rem;
     }
     .folderContainer {
-        column-gap: 50px;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 40px;
         justify-content: center;
         margin-top: 0px;
     }
