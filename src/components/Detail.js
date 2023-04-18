@@ -30,11 +30,13 @@ const Detail = ({ projects }) => {
     return (
         <div className={detail}>
             <span className={about}>
-                Cameron Conway is a Software Engineer from the UK.
+                Cameron Conway is a Software Engineer focused on building
+                immersive digital experiences and user friendly applications.
             </span>
             <br /> <br />
             <br />
             {/* https://www.youtube.com/watch?v=xZgBOjEAs7E&ab_channel=NoorHUB */}
+            {/* https://www.seanw.org/ - how to display projects */}
             <div className={folderContainer}>{renderProjects}</div>
         </div>
     );
