@@ -1,0 +1,47 @@
+.projectContainer {
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.projectImage {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.contentContainer p {
+    text-align: justify;
+}
+
+.contentHeader {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 5px 0;
+}
+.projectTitle {
+    margin: auto 0;
+    font-weight: bolder;
+}
+
+.githubLink {
+    width: fit-content;
+}
+.githubLink i {
+    /* color: #a0a0a0; */
+    font-size: 15px;
+}
+
+/* Medium devices (landscape tablets, 500px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1200px) {
+}
