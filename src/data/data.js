@@ -1,8 +1,3 @@
-import educationImage from '../../static/uni-building.jpg';
-import storeImage from '../../static/woman-tube-background.jpg';
-import fashionImage from '../../static/banner-woman.jpg';
-import quizImage from '../../static/quiz-website.png';
-
 export const socialIcons = [
     {
         iconFont: 'linkedin',
@@ -30,7 +25,6 @@ export const socialIcons = [
 export const projects = [
     {
         name: 'Education',
-        img: educationImage,
         colour: '#003049',
         href: 'https://cameronconway-education.netlify.app/',
         repo: 'https://github.com/cameronteconway/education',
@@ -38,7 +32,6 @@ export const projects = [
     },
     {
         name: 'Store',
-        img: storeImage,
         colour: '#ffda35',
         href: 'https://cameronconway-store.netlify.app/',
         repo: 'https://github.com/cameronteconway/store',
@@ -46,7 +39,6 @@ export const projects = [
     },
     {
         name: 'Fashion',
-        img: fashionImage,
         colour: '#272323',
         href: 'https://cameronconway-fashion.netlify.app/',
         repo: 'https://github.com/cameronteconway/fashion',
@@ -54,7 +46,6 @@ export const projects = [
     },
     {
         name: 'Quiz',
-        img: quizImage,
         colour: '#e7e5df',
         href: 'https://cameronconway-quiz.netlify.app/',
         repo: 'https://github.com/cameronteconway/quiz',
