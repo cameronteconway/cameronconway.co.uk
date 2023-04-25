@@ -17,7 +17,7 @@ const Project = ({ project }) => {
                     <span className={projectTitle}>{project.name}</span>
                     <a
                         className={githubLink}
-                        href={project.repo}
+                        href={project.href}
                         title={project.desc}
                         target="_blank"
                         rel="noreferrer"
