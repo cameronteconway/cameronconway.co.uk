@@ -1,10 +1,12 @@
 * {
-    font-family: 'Noto Serif', serif;
+    font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+body {
+    background-color: rgb(18, 18, 18)
+}
 .app-container {
     position: absolute;
     top: 0;
@@ -14,8 +16,19 @@
 .wrapper {
     max-width: 1250px;
     margin: auto;
-    padding: 0 1.5rem 0 3.5rem;
+    padding: 0 1rem 0 1rem;
     overflow: auto;
+}
+.content {
+    margin-bottom: 15px;
+}
+.section {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.section__title {
+    font-weight: 200;
+    display: block;
 }
 
 p,
@@ -36,6 +49,13 @@ a {
         padding: 0 3.5rem 0 3.5rem;
         overflow: auto;
     }
+    .section {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+    .section__title {
+        font-size: 20px;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -45,10 +65,6 @@ a {
 @media only screen and (min-width: 1200px) {
 }
 
-/* About */
-.content .about h1 {
-    margin: 40px 0 40px 0;
-}
 
 /* Dark Mode */
 .dark-mode {
@@ -80,4 +96,7 @@ a {
 .light-mode .navigation .bi {
     color: rgb(50, 50, 50);
     transition: 0s;
+}
+.light-mode .section__title {
+    font-weight: 400;
 }
