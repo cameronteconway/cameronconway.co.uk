@@ -37,8 +37,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Yrsa:wght@400;500;600;700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&family=Yrsa:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Yrsa:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Yrsa:wght@600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Baskervville&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
@@ -46,7 +46,7 @@
         <!-- Favicon -->
         <link rel="shortcut icon" href="images/favicon.ico">
         <link rel="apple-touch-icon" href="images/favicon.ico">
-        <!-- <meta name="theme-color" content="#319197"> -->
+        <meta name="theme-color" content="#121212">
 
     </head>
     <body>
@@ -74,7 +74,7 @@
                             </a>
                         </div>
                         <!-- Change icon from 'lightbulb' to 'moon' -->
-                        <button class="navigation__button" id="dark-mode" data-darkmode="true" onclick=updateDarkMode(this)>
+                        <button class="navigation__button" aria-label="Dark/Light mode toggle" type="button" id="dark-mode" data-darkmode="true" onclick=updateDarkMode(this)>
                             <i class="bi bi-lightbulb"></i>
                         </button>
 
@@ -131,17 +131,17 @@
                     </div>
                     <div class="projects">
                         <a class="project" href="https://cameronconway.co.uk/creative-visuals/p5-particles/" target="_blank">
-                            <img class="project__gif" src="images/particles.gif">
+                            <img class="project__gif" src="images/particles.gif" alt="GIF of particles project created in p5.js">
                             <span class="project__name">Particles</span>
                             <p class="project__technology">p5.js</p>
                         </a>
                         <a class="project" href="https://cameronconway.co.uk/creative-visuals/p5-rain/" target="_blank">
-                            <img class="project__gif" src="images/rain.gif">
+                            <img class="project__gif" src="images/rain.gif" alt="GIF of a rain simulation project created in p5.js">
                             <span class="project__name">Rain</span>
                             <p class="project__technology">p5.js</p>
                         </a>
                         <a class="project" href="https://cameronconway.co.uk/creative-visuals/p5-bubble-fill/" target="_blank">
-                            <img class="project__gif" src="images/bubble-fill.gif">
+                            <img class="project__gif" src="images/bubble-fill.gif" alt="GIF of bubble project created in p5.js">
                             <span class="project__name">Bubble Fill</span>
                             <p class="project__technology">p5.js</p>
                         </a>
