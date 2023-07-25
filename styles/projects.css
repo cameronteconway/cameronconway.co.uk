@@ -19,7 +19,7 @@
 }
 .project__card {
     border: 1px solid rgb(38 38 38);
-    background-color: rgb(23 23 23);
+    background-color: rgb(18, 18, 18);
     justify-content: center;
     align-items: center;
     display: flex;
