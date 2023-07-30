@@ -46,7 +46,14 @@
 }
 
 @media only screen and (min-width: 768px) {
-
+    .navigation__button:hover i.bi {
+        opacity: 0.3;
+        transition: 0.4s;
+    }
+    .navigation__link:hover i.bi {
+        opacity: 0.3;
+        transition: 0.4s;
+    }
 }
 
 @media only screen and (min-width: 992px) {
