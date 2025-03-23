@@ -48,6 +48,16 @@
     color: rgb(50, 50, 50) !important;
     transition: 0.4s;
 }
+.project__icon {
+    fill: white;
+    height: 48px;
+    width: 48px;
+}
+.light-mode .project__icon {
+    fill: rgb(50, 50, 50) !important;
+    height: 48px;
+    width: 48px;
+}
 
 .project__name {
     font-weight: 300;
