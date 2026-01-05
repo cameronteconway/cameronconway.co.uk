@@ -17,7 +17,6 @@
 }
 .navigation__button {
     background: none;
-    font-size: 18px;
     border: none;
     cursor: pointer;
 }
@@ -26,32 +25,44 @@
     margin-right: 18px;
 }
 .navigation__link {
-    font-size: 18px;
+    display: flex;
 }
+.navigation__link,
+.navigation__button {
+    height: 20px;
+    width: 20px;
+}
+.navigation__svg {
+    height: 20px;
+    width: 20px;
+}
+ .navigation__button svg.hidden {
+    display: none;
+ }
 
 /* Medium devices (landscape tablets, 500px and up) */
 @media only screen and (min-width: 600px) {
     .navigation__title {
         font-size: 22px;
     }
-    .navigation__button {
-        font-size: 22px;
-    }
     .navigation__social {
         margin-right: 32px;
     }
-    .navigation__link {
-        font-size: 22px;
+    .navigation__link,
+    .navigation__button {
+        height: 23px;
+        width: 23px;
+    }
+    .navigation__svg {
+        height: 23px;
+        width: 23px;
     }
 }
 
 @media only screen and (min-width: 768px) {
-    .navigation__button:hover i.bi {
-        opacity: 0.3;
-        transition: 0.4s;
-    }
-    .navigation__link:hover i.bi {
-        opacity: 0.3;
+    .navigation__link:hover .navigation__svg,
+    .navigation__button:hover .navigation__svg {
+        opacity: 0.7;
         transition: 0.4s;
     }
 }

@@ -52,11 +52,13 @@
     fill: white;
     height: 48px;
     width: 48px;
+    transition: 0.4s;
 }
 .light-mode .project__icon {
     fill: rgb(50, 50, 50) !important;
     height: 48px;
     width: 48px;
+    transition: 0.4s;
 }
 
 .project__name {

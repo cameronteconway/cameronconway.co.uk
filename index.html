@@ -30,18 +30,13 @@
         <link rel="stylesheet" href="styles/projects.css" />
         <link rel="stylesheet" href="styles/work.css" />
 
-        <!-- CDNs -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Yrsa:wght@600&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Yrsa:wght@600&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Baskervville&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&family=Yrsa:wght@600&family=Marck+Script&family=Merriweather&display=swap"
+            rel="stylesheet"
+        />
 
         <!-- Favicon -->
         <link rel="shortcut icon" href="images/favicon.ico">
@@ -60,33 +55,44 @@
                         
                         <div class="navigation__social">
                             <a class="navigation__link" href="https://www.linkedin.com/in/cameronteconway" title="Find me on LinkedIn" target="_blank">
-                                <i class="bi bi-linkedin"></i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="navigation__svg" viewBox="0 0 16 16">
+                                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                                </svg>
                             </a>
                         </div>
                         <div class="navigation__social">
                             <a class="navigation__link" href="mailto:cameronteconway@outlook.com" title="Send an email to Cameron Conway" target="_blank">
-                                <i class="bi bi-envelope"></i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="navigation__svg" viewBox="0 0 16 16">
+                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                                </svg>
                             </a>
                         </div>
                         <div class="navigation__social">
                             <a class="navigation__link" href="https://github.com/cameronteconway" title="View my work on GitHub" target="_blank">
-                                <i class="bi bi-github"></i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="navigation__svg" viewBox="0 0 16 16">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                                </svg>
                             </a>
                         </div>
-                        <!-- Change icon from 'lightbulb' to 'moon' -->
                         <button class="navigation__button" aria-label="Dark/Light mode toggle" type="button" id="dark-mode" data-darkmode="true" onclick=updateDarkMode(this)>
-                            <i class="bi bi-lightbulb"></i>
+                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="navigation__svg" viewBox="0 0 16 16">
+                                <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="navigation__svg hidden" viewBox="0 0 16 16">
+                                <path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278M4.858 1.311A7.27 7.27 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.32 7.32 0 0 0 5.205-2.162q-.506.063-1.029.063c-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286"/>
+                            </svg>
                         </button>
 
                     </div>
                 </nav>
+
                 <!-- Navigation -->
                 <main class="content">
                     <div class="section">
                         <span class="section__title">Designs</span>
                     </div>
                     <div class="projects">
-                        <a class="project" href="https://cameronconway-ecommerce.netlify.app/" target="_blank">
+                        <a class="project" aria-label="View Ecommerce project" href="https://cameronconway-ecommerce.netlify.app/" target="_blank">
                             <div class="project__card">
                                 <span class="project__logo">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="project__icon" fill="#FFFFFF" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -95,17 +101,17 @@
                                 </span>
                             </div>
                             <span class="project__name">Ecommerce</span>
-                            <p class="project__technology">Nextjs, TypeScript, Tailwind</p>
+                            <p class="project__technology">Next.js, TypeScript, Tailwind</p>
                         </a> 
 
-                        <a class="project" href="https://cameronconway-fitns.netlify.app/" target="_blank">
+                        <a class="project" aria-label="View Fitns project" href="https://cameronconway-fitns.netlify.app/" target="_blank">
                             <div class="project__card">
                                 <span class="project__logo" style="font-family: 'Marck Script', cursive;">Fitns</span>
                             </div>
                             <span class="project__name">Fitns</span>
                             <p class="project__technology">React.js, TypeScript, Tailwind</p>
                         </a>
-                        <a class="project" href="https://cameronconway-education.netlify.app/" target="_blank">
+                        <a class="project" aria-label="View Education project" href="https://cameronconway-education.netlify.app/" target="_blank">
                             <div class="project__card">
                                 <span class="project__logo" style="font-family: 'Yrsa', serif;">CTEC</span>
                             </div>
@@ -113,7 +119,7 @@
                             <p class="project__technology">React.js, TypeScript, SASS</p>
                         </a>
 
-                        <a class="project" href="https://cameronconway-quiz.netlify.app/" target="_blank">
+                        <a class="project" aria-label="View Quiz project" href="https://cameronconway-quiz.netlify.app/" target="_blank">
                             <div class="project__card">
                                 <span class="project__logo" style="font-family: 'Merriweather', serif; font-size: 32px">Quiz</span>
                             </div>
@@ -121,31 +127,31 @@
                             <p class="project__technology">React.js, Redux, TypeScript, CSS modules</p>
                         </a>
 
-                        <a class="project" href="https://cameronconway-fashion.netlify.app/" target="_blank">
+                        <!-- <a class="project" href="https://cameronconway-fashion.netlify.app/" target="_blank">
                             <div class="project__card">
                                 <span class="project__logo" style="font-family: 'Baskervville', serif; font-size: 32px">MODA</span>
                             </div>
                             <span class="project__name">Fashion</span>
                             <p class="project__technology">React.js, TypeScript, SASS</p>
-                        </a>
+                        </a> -->
                     </div>
 
                     <div class="section">
                         <span class="section__title">Creative Visuals</span>
                     </div>
                     <div class="projects">
-                        <a class="project" href="/p5-particles/">
-                            <img class="project__gif" src="images/particles.gif" alt="GIF of particles project created in p5.js">
+                        <a class="project" aria-label="View Particles project" href="/p5-particles/">
+                            <img class="project__gif" src="images/particles.gif" alt="GIF of particles project created in p5.js" loading="lazy" decoding="async" fetchpriority="high" height="262" width="262">
                             <span class="project__name">Particles</span>
                             <p class="project__technology">p5.js</p>
                         </a>
-                        <a class="project" href="/p5-rain/">
-                            <img class="project__gif" src="images/rain.gif" alt="GIF of a rain simulation project created in p5.js">
+                        <a class="project" aria-label="View Rain project" href="/p5-rain/">
+                            <img class="project__gif" src="images/rain.gif" alt="GIF of a rain simulation project created in p5.js" loading="lazy" decoding="async" fetchpriority="high" height="262" width="262">
                             <span class="project__name">Rain</span>
                             <p class="project__technology">p5.js</p>
                         </a>
-                        <a class="project" href="/p5-bubble-fill/">
-                            <img class="project__gif" src="images/bubble-fill.gif" alt="GIF of bubble project created in p5.js">
+                        <a class="project" aria-label="View Bubble Fill project" href="/p5-bubble-fill/">
+                            <img class="project__gif" src="images/bubble-fill.gif" alt="GIF of bubble project created in p5.js" loading="lazy" decoding="async" fetchpriority="high" height="262" width="262">
                             <span class="project__name">Bubble Fill</span>
                             <p class="project__technology">p5.js</p>
                         </a>
@@ -189,44 +195,11 @@
                             </div>
                         </div>
 
-
-                        
-                        <!-- <a class="job" href="https://cameronconway-store.netlify.app/" target="_blank">
-                            <div class="job__card">
-                                <svg width="110.16px" height="34.56px" viewBox="0 0 77 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="clickable"><path fill-rule="evenodd" clip-rule="evenodd" d="M48.537 18.733c0 1.799-1.302 3.633-5.1 3.633-2.427 0-5.803-.811-5.803-7.373 0-5.256 2.32-7.056 6.049-7.056 1.723 0 3.411.353 4.854.953v9.843zm0-11.607c-1.478-.529-3.13-.811-4.854-.811-3.658 0-7.808 1.517-7.808 8.678 0 7.832 4.678 8.996 7.562 8.996 6.225 0 6.823-4.022 6.823-5.327V0h-1.723v7.126zm-18.325 8.008c0-5.397-2.497-7.232-6.26-7.232-3.729 0-6.26 1.835-6.26 7.232 0 5.398 2.532 7.232 6.26 7.232 3.763 0 6.26-1.834 6.26-7.232zm1.724 0c0 7.267-4.327 8.855-7.985 8.855-3.657 0-7.983-1.588-7.983-8.855S20.294 6.28 23.95 6.28c3.658 0 7.985 1.588 7.985 8.855zM8.16 22.296c1.618 0 3.27-.318 4.783-.918v1.694c-1.583.6-3.27.917-4.959.917C4.361 23.989 0 22.507 0 15.134 0 7.796 4.361 6.28 7.984 6.28c1.688 0 3.376.353 4.96.918V8.89c-1.513-.565-3.166-.917-4.784-.917-3.87 0-6.437 1.799-6.437 7.161 0 5.398 2.568 7.162 6.437 7.162zm66.581 1.41H76.5V0h-1.759v23.707zm-12.356-1.329c3.799 0 5.1-1.834 5.1-3.633V11.59c0-1.799-1.301-3.633-5.1-3.633-2.406 0-5.743.8-5.8 7.21.056 6.408 3.394 7.21 5.8 7.21zm-7.555-7.41c.145-7.5 4.717-8.632 7.555-8.632 6.225 0 6.823 4.022 6.823 5.327v12.045h-1.723v-1.215c-1.01.86-2.602 1.508-5.1 1.508-2.838 0-7.41-1.132-7.555-8.631a3.92 3.92 0 01-.003-.201c-.001-.056.001-.202.003-.202z" fill="#fff"></path></svg>
-                                <img class="logo" width="125px" src="https://vercel.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F3zGtRFBAUTmamDBggXHKtC%2F5d166359029a6ce1c08640d34434a091%2Fcodal-logo-blue.png&w=640&q=75&dpl=dpl_CGCMKkBdV7LxjPGWHLGLM2L1v4Dx" alt="Northrop Grumman Corporation Logo">
-                            </div>
-                            <span class="job__name">Software Engineer</span>
-                            <p class="job__technology">2023 - Present</p>
-                        </a>
-                        <a class="job" href="https://cameronconway-store.netlify.app/" target="_blank">
-                            <div class="job__card">
-                                <img class="logo" width="140px" src="https://logos-world.net/wp-content/uploads/2022/10/Northrop-Grumman-Symbol.png" alt="Northrop Grumman Corporation Logo">
-                                <img class="logo" width="140px" src="https://www.northropgrumman.com/wp-content/uploads/2019/12/NGC-logo-white-on-clear.png" alt="Northrop Grumman Corporation Logo">
-                            </div>
-                            <span class="job__name">Software Engineer</span>
-                            <p class="job__technology">2022 - 2023</p>
-                        </a>
-                        <a class="job" href="https://cameronconway-store.netlify.app/" target="_blank">
-                            <div class="job__card">
-                                <img class="logo" width="140px" src="https://kineticsoftware.com/wp-content/uploads/2021/01/download.png" alt="Northrop Grumman Corporation Logo">
-                                <img class="logo" width="150px" src="https://seeklogo.com/images/T/The_University_of_Nottingham-logo-EE8238E565-seeklogo.com.png" alt="Northrop Grumman Corporation Logo">
-                            </div>
-                            <span class="job__name">Web Developer</span>
-                            <p class="job__technology">2021 - 2022</p>
-                        </a>
-                        <a class="job" href="https://cameronconway-store.netlify.app/" target="_blank">
-                            <div class="job__card">
-                               <svg fill="none" height="70" viewBox="0 0 100 100" width="70" xmlns="http://www.w3.org/2000/svg"><path id="cursor-logo" clip-rule="evenodd" d="m48.4986 0c26.7871 0 48.5014 21.714 48.5014 48.5007 0 26.7853-21.7143 48.4993-48.5014 48.4993-26.7836 0-48.4986-21.714-48.4986-48.4993 0-26.7867 21.715-48.5007 48.4986-48.5007zm18.322 72.019c.5345-.627.8015-1.5401.8015-2.7325 0-1.1938-.267-2.0897-.8015-2.6873-.534-.5976-1.4286-.8974-2.686-.8974h-20.7067c-1.2567 0-2.1541.2998-2.6867.8974-.5346.5976-.8022 1.4935-.8022 2.6873 0 1.1924.2676 2.1055.8022 2.7325.5326.627 1.43.9425 2.6867.9425h20.7067c1.2574 0 2.152-.3155 2.686-.9425zm-30.1535-13.6713v-22.3047l20.1735 20.1725c.8885.8892 1.7338 1.3129 2.5333 1.2677.8009-.0459 1.6223-.4894 2.4656-1.332.8446-.8474 1.3012-1.6791 1.3662-2.5011.0678-.8207-.345-1.6777-1.2328-2.5655l-20.1741-20.1732h22.3057c1.2567 0 2.152-.3148 2.6866-.9439.5339-.627.8002-1.538.8002-2.7331 0-1.1931-.2663-2.087-.8002-2.686-.5346-.5962-1.4299-.8953-2.6866-.8953h-31.196c-1.1876 0-2.0487.2697-2.5901.8029-.0034.0021-.0096.0055-.0137.0089-.0198.0171-.0356.039-.0554.0582-.0082.0089-.0185.0151-.0274.0253-.0007.0021-.0021.0041-.0041.0069-.5373.5428-.8084 1.4032-.8084 2.5949v31.1975c0 1.2554.2991 2.1527.8953 2.6846.5976.5373 1.4936.8022 2.6853.8022 1.1951 0 2.1069-.2649 2.7346-.8022.6283-.5319.9425-1.4292.9425-2.6846zm52.6464-51.5159h-.7071v.8542c0 .1493-.0863.2239-.2588.2239-.089 0-.1588-.0178-.2101-.0527-.0513-.035-.0774-.0918-.0774-.1712v-2.5066c0-.0609.0158-.1122.0459-.1547.0308-.0417.0856-.0622.1643-.0622h.7707c.4011 0 .7044.0753.9097.2272.2061.152.308.3977.308.7386 0 .1499-.0314.2943-.0944.4346-.0623.1397-.1807.2567-.3532.3498l.3285.8474c.0144.037.0219.0814.0219.1328 0 .1444-.0889.217-.2662.217-.0938 0-.1595-.0199-.1965-.0596-.0376-.0397-.0725-.0992-.1054-.1786zm.3785-.9384c0-.1356-.0431-.2451-.1294-.3293-.0862-.0842-.2115-.1259-.3744-.1259h-.5818v.9103h.6099c.1629 0 .2833-.0397.36-.1191s.1157-.1916.1157-.336zm2.1.5599c0 .36-.07.6981-.213 1.0158-.142.3176-.337.5948-.5851.833-.2471.2382-.5353.4257-.8645.5633-.3293.1376-.6825.2067-1.0603.2067-.3785 0-.7317-.0691-1.061-.2067-.3292-.1376-.6174-.3251-.8652-.5633-.2471-.2382-.4422-.5154-.5845-.833-.1424-.3177-.2136-.6558-.2136-1.0158 0-.3594.0712-.6975.2136-1.0151.1423-.3169.3374-.5948.5845-.833.2478-.2382.536-.4258.8652-.5641.3293-.1375.6825-.206 1.061-.206.3778 0 .731.0685 1.0603.206.3292.1383.6174.3259.8645.5641.2481.2382.4431.5161.5851.833.143.3176.213.6557.213 1.0151zm-.567 0c0-.2937-.057-.5716-.172-.833-.1139-.2615-.2686-.4888-.4643-.6825-.1972-.1937-.4258-.3477-.6866-.462-.2615-.1143-.5387-.1718-.833-.1718s-.5723.0575-.8337.1718c-.2615.1143-.4901.2683-.6859.462-.1964.1937-.3518.421-.4661.6825-.1143.2614-.1718.5393-.1718.833 0 .2943.0575.5722.1718.8337.1143.2608.2697.4887.4661.6824.1958.1937.4244.3477.6859.462.2614.1143.5394.1712.8337.1712s.5715-.0569.833-.1712c.2608-.1143.4894-.2683.6866-.462.1957-.1937.3504-.4216.4643-.6824.115-.2615.172-.5394.172-.8337z" fill="#f37638" fill-rule="evenodd"></path></svg>
-                            </div>
-                            <span class="job__name">Apprentice Web Developer</span>
-                            <p class="job__technology">2019 - 2020</p>
-                        </a> -->
                     </div>
                 </main>
             </div>
         </div>
 
-        <script src="/index.js"></script>
+        <script src="/index.js" defer></script>
     </body>
 </html>

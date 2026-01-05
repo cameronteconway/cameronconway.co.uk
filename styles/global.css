@@ -81,6 +81,10 @@ a {
     color: white;
     transition: 0s;
 }
+.dark-mode .navigation svg.navigation__svg {
+    fill: white;
+    transition: 0s;
+}
 
 /* Light Mode */
 .light-mode {
@@ -93,9 +97,8 @@ a {
     color: rgb(50, 50, 50);
     transition: 0.4s;
 }
-.light-mode .navigation .bi {
-    color: rgb(50, 50, 50);
-    transition: 0s;
+.light-mode .navigation__social svg.navigation__svg {
+    fill: rgb(50, 50, 50);
 }
 .light-mode .section__title {
     font-weight: 400;

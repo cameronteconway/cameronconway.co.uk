@@ -12,8 +12,8 @@ const updateDarkMode = (x) => {
         appContainer.classList.add('dark-mode');
         body.style.backgroundColor = 'rgb(18, 18, 18)';
         body.style.transition = '0.4s';
-        x.children[0].classList.remove('bi-moon');
-        x.children[0].classList.add('bi-lightbulb');
+        x.children[0].classList.remove('hidden');
+        x.children[1].classList.add('hidden');
     } else {
         // Set light mode
         x.setAttribute('data-darkmode', 'false');
@@ -21,7 +21,7 @@ const updateDarkMode = (x) => {
         appContainer.classList.add('light-mode');
         body.style.backgroundColor = 'white';
         body.style.transition = '0.4s';
-        x.children[0].classList.remove('bi-lightbulb');
-        x.children[0].classList.add('bi-moon');
+        x.children[0].classList.add('hidden');
+        x.children[1].classList.remove('hidden');
     }
 }
